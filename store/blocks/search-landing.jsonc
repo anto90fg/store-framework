@@ -1,5 +1,5 @@
 {
-    "store.custom":{
+    "store.custom#landing":{
         "blocks":[
             "image#landingbanner",
             "search-result-layout.customQuery"
@@ -22,8 +22,8 @@
                 "skusFilter": "ALL_AVAILABLE"
             }
         },
-       "blocks": [//for the results 
-         "search-result-layout.desktop"
-      ]
+    //   "blocks": [//for the results 
+      //   "search-result-layout.desktop"
+      //]
     }
 }
