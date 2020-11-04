@@ -39,7 +39,7 @@
               "sticky": true,
               "fullWidth":false
           },
-          "blocks":[
+          "children":[
               "logo",
               "header-spacer",
               "search-bar",
@@ -85,11 +85,6 @@
         "props": {
           "text": "**Free Shipping on orders over $50**",
           "textPosition": "CENTER"
-        }
-    },
-    "search-bar":{
-        "props":{
-            "searchBarIcon":"../iconpacks/search.svg"
         }
     }
 }
