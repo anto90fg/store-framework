@@ -1,0 +1,29 @@
+{
+    "store.custom#landing":{
+        "blocks":[
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner":{
+        "props":{
+            "src":"https://lp-cms-production.imgix.net/2019-06/1e5ff0f579dfa806c6995bf76bb44f66-bari.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200",
+            "minWidth":"100%"
+        }
+    },
+    "search-result-layout.customQuery": { //specific query for the landing page
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Camera",
+                "mapField": "ft",
+                "skusFilter": "ALL_AVAILABLE"
+            }
+        },
+       "blocks": [//for the results 
+         "search-result-layout.desktop"
+      ]
+    }
+}
