@@ -7,7 +7,7 @@
     },
     "image#landingbanner":{
         "props":{
-            "src":"",
+            "src":"https://lp-cms-production.imgix.net/2019-06/1e5ff0f579dfa806c6995bf76bb44f66-bari.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200",
             "minWidth":"100%"
         }
     },
