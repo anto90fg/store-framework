@@ -17,14 +17,14 @@
         },
         "blocks":["vtex.menu@2.x:submenu#major"]
     },
-    "menu-item#Small-appliances":{
+    "menu-item#small-appliances":{
         "props":{
             "text":"Small appliances",
             "href":"#"
         },
         "blocks":["vtex.menu@2.x:submenu#small"]
     },
-    "menu-item#major-electronics":{
+    "menu-item#electronics":{
         "props":{
             "text":"Electronics",
             "href":"#"
